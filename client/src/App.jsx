@@ -9,7 +9,7 @@ import Notes from './pages/Notes';
 import Pricing from './pages/Pricing';
 import PaymentSuccess from './pages/PaymentSuccess';
 import PaymentFailed from './pages/PaymentFailed';
-export const serverURL = "http://localhost:8000";
+export const serverURL = "https://examnotesaiserver-p3cb.onrender.com";
 
 const App = () => {
   const dispatch = useDispatch();
